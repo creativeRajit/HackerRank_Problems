@@ -1,0 +1,16 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import cmath , math
+
+# input complex number
+complex_num = eval(raw_input())
+
+x = complex_num.real
+y = complex_num.imag
+
+# calculate r and phi
+r = (x ** 2 + y ** 2) ** 0.5
+phi = math.atan2(y,x)
+
+# print r and phi
+print r 
+print phi
